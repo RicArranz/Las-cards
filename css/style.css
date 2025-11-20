@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    height: 100px;
+}
+
+body {
+    background-color: rgb(165, 243, 246);
+    height: 100vh;
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    border-bottom: 2px solid black;
+    padding: 15px;
+}
+
+/* Card1 */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 25px;
+    padding: 10px;
+}
+
+.C1 {
+    background-color: rgb(231, 225, 172);
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.708);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+a {
+    color: rgb(88, 83, 83);
+    padding: 5px;
+    background-color: coral;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: crimson;
+    background-color: mediumseagreen;
+    transition: 0.8s ease;
+}
+
+
+
+
+/* Cards 2: */
+
+.contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.C2 {
+    width: 350px;
+    background-color: rgb(189, 174, 155);
+    border-radius: 30px;
+    box-shadow: 2px 3px 3px 1px rgb(95, 83, 83);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 2px solid;
+}
+
+.txt {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Btn-card {
+    color: rgb(111, 86, 17);
+    padding: 5px;
+    background-color: rgb(176, 143, 193);
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.Btn-card:hover {
+    color: darkcyan;
+    background-color: rgb(141, 187, 162);
+    transition: 0.8s ease;
+}
+
+.C2 img {
+    background-size: cover;
+    object-fit: fill;
+    border-radius: 30px 30px 0 0;
+    filter: blur(1px);
+}
+
+.C2 img:hover {
+    transform: scale(1.2);
+    transition: 1.3s ease-out;
+}
+
